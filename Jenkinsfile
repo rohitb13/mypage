@@ -5,7 +5,7 @@ pipeline {
     
         stage('IntegrationTest') {
             steps {
-                echo 'IntegrationTest'
+                echo 'IntegrationTest1'
             
             }
 			}
@@ -19,8 +19,7 @@ pipeline {
             
             stage('SeliniumTest') {
             steps {
-                echo 'SeliniumTest.2'
-                "
+echo 'DeployTestServer1'
                 
             }
 			}
